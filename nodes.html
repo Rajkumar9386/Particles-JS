@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Interactive image nodes</title>  <title>particles.js</title>
+	<meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+	<style type="text/css">
+		body{background-image: radial-gradient(circle, #e9f4d1, #93bda8, #488588, #104d65, #051937);}
+		#canvas{position: relative;}
+		.links{padding: 50px;position: absolute;z-index: 1;}
+		.links a{
+		    background: coral;
+		    padding: 5px;
+		    font-size: 39px;
+		    text-decoration: none;
+		    color: darkred;
+		    border-radius: 40px;
+		}
+		.para{
+			position: absolute;
+		    font-size: 32px;
+		    color: #ddd;
+		    left: 45%;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="links">
+	    <a href="index.html"><i class="fas fa-arrow-circle-left"></i></a>
+	</div>
+	<p class="para">Hover Mouse on nodes</p>
+	<canvas id='canvas'></canvas>
+
+	<script type="text/javascript" src="js/nodesImages.js"></script>
+</body>
+</html>
